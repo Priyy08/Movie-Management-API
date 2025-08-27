@@ -59,3 +59,17 @@ docker run -d -p 8000:8000 movie-management-api
 ```bash
 http://localhost:8000
 ```
+
+# Running Tests:
+1) clone the repo and move current directory to cloned repo directory
+```bash
+cd Movie-Management-API
+```
+2) Ensure if you have already downloaded pytest in your venv, if it is not present then run this command:
+```bash
+pip install pytest
+```
+3) Now run this command on an new terminal inside your IDE to run all test cases:
+```bash
+pytest -v
+```
