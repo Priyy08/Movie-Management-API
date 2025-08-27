@@ -19,9 +19,10 @@ Movie Management API Which can perform seamless CRUD Operations with SQLite Data
 # Run Command :
 * To Run locally:
    
-   1\)clone the repo:
-      ```
+   1\) clone the repo:
+      ```bash
       git clone https://github.com/Priyy08/Movie-Management-API
+  
       cd Movie-Management-API
       ```
 
