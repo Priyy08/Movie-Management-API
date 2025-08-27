@@ -41,3 +41,21 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
+
+
+# Run Command with Docker:
+
+* To Run with Docker:
+
+1) Build the Docker image:
+```bash
+docker build -t movie-management-api .
+```
+3) Run the Docker container:
+``bash
+docker run -d -p 8000:8000 movie-management-api
+```
+5) Open the application in your browser:
+```bash
+http://localhost:8000
+```
