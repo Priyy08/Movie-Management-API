@@ -24,7 +24,7 @@ Movie Management API Which can perform seamless CRUD Operations with SQLite Data
       git clone https://github.com/Priyy08/Movie-Management-API
   
       cd Movie-Management-API
-      ```
+  
 
    2\) Create and activate a virtual environment (optional but recommended):
      ```
