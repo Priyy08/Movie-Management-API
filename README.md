@@ -23,20 +23,21 @@ Movie Management API Which can perform seamless CRUD Operations with SQLite Data
 ```bash
 git clone https://github.com/abc08/Movie-Management-API
 cd Movie-Management-API
-
+```
   
 2\) Create and activate a virtual environment (optional but recommended):
 ```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 3\) Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 
 4\) Run the FastAPI application
 ```bash
 uvicorn main:app --reload
-    
+```
