@@ -18,25 +18,23 @@ Movie Management API Which can perform seamless CRUD Operations with SQLite Data
 
 # Run Command :
 * To Run locally:
-   
-   1\) clone the repo:
-      ```
-      git clone https://github.com/Priyy08/Movie-Management-API
   
-      cd Movie-Management-API
+1\) clone the repo:
+```bash
+git clone https://github.com/abc08/Movie-Management-API
+cd Movie-Management-API
   
-
-   2\) Create and activate a virtual environment (optional but recommended):
-     ```
-     python -m venv venv
-     venv\Scripts\activate
-     ```
-   3\) Install dependencies
-   ```
-   pip install -r requirements.txt
-   ```
-   4\) Run the FastAPI application
-   ```
-   uvicorn main:app --reload
-   ```   
+2\) Create and activate a virtual environment (optional but recommended):
+```
+python -m venv venv
+venv\Scripts\activate
+```
+3\) Install dependencies
+```
+pip install -r requirements.txt
+```
+4\) Run the FastAPI application
+```
+uvicorn main:app --reload
+```   
     
