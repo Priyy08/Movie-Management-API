@@ -17,7 +17,7 @@ Movie Management API Which can perform seamless CRUD Operations with SQLite Data
 5) DELETE /movies/{id} — Delete movie by ID
 
 # Run Command :
-1\) To Run locally:
+* To Run locally:
    
    1\)clone the repo:
       ```
