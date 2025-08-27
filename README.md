@@ -47,15 +47,15 @@ uvicorn main:app --reload
 
 * To Run with Docker:
 
-1) Build the Docker image:
+1\) Build the Docker image:
 ```bash
 docker build -t movie-management-api .
 ```
-3) Run the Docker container:
-``bash
+2\) Run the Docker container:
+```bash
 docker run -d -p 8000:8000 movie-management-api
 ```
-5) Open the application in your browser:
+3\) Open the application in your browser:
 ```bash
 http://localhost:8000
 ```
