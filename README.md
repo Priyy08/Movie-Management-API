@@ -73,3 +73,9 @@ pip install pytest
 ```bash
 pytest -v
 ```
+
+# To access and test the live deployed API On Cloud (Deployed using Render):
+```bash
+https://movie-management-api-3scm.onrender.com
+```
+Note : Open this link in new tab then include /docs at end of url to open swagger ui for seamless interaction with API.
